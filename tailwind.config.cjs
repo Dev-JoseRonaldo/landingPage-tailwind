@@ -10,7 +10,8 @@ module.exports = {
       */
 
       fontFamily: {
-        sans: "'Poppins', sans-serif;"
+        sans: "'Poppins', sans-serif;",
+        oleo: "'Oleo Script', cursive;"
       },
 
       colors: {
