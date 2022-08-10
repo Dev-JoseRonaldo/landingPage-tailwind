@@ -1,6 +1,8 @@
+import Header from "./components/Header"
+
 export const App = () => {
   return (
-    <h1 className="text-5xl">Hello World</h1>
+    <Header/>
   )
 }
 
