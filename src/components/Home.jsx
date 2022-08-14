@@ -4,7 +4,7 @@ import nikeImg from '../assets/nikeShoe.png'
 
 export const Home = () => {
   return (
-    <section className='bg-[#F6F6F6] h-[476px] relative overflow-hidden rounded-xl border-box flex items-center justify-center gap-12 max-w-7xl mx-auto pt-7 pl-7 pb-12 mt-8 after::content-[""] after:absolute after:w-[600px] after:h-[600px] after:rounded-full after:right-[-190px] after:top-[-100px] after:bg-gradient-to-l after:from-[#005088] after:to-[#0F88DD] before:content-[""] before:absolute before:w-[600px] before:h-[600px] before:rounded-full before:right-[-90px] before:top-[100px] before:bg-gradient-to-l before:from-[#015C9C] before:to-[#0074C6]' >
+    <section className='bg-[#F6F6F6] h-[476px] relative overflow-hidden rounded-xl flex items-center justify-center gap-12 max-w-7xl mx-auto mb-24 mt-8 pt-7 pl-7 pb-12 after::content-[""] after:absolute after:w-[600px] after:h-[600px] after:rounded-full after:right-[-190px] after:top-[-100px] after:bg-gradient-to-l after:from-[#005088] after:to-[#0F88DD] before:content-[""] before:absolute before:w-[600px] before:h-[600px] before:rounded-full before:right-[-90px] before:top-[100px] before:bg-gradient-to-l before:from-[#015C9C] before:to-[#0074C6]' >
       <div>
         <div className='h-24'>
         </div>

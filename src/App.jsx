@@ -1,6 +1,7 @@
 import { FeaturedCarousel } from "./components/Carousels/FeaturedCarousel"
 import Header from "./components/Header"
 import { Home } from "./components/Home"
+import { JustDoIt } from "./components/JustDoIt"
 
 export const App = () => {
 
@@ -8,6 +9,7 @@ export const App = () => {
     <>
       <Header/>
       <Home />
+      <JustDoIt />
       <FeaturedCarousel />
 
     </>
