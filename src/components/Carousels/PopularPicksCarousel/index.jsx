@@ -7,7 +7,7 @@ import { carouselPopularPick } from "../../../carousel-mock.json"
 
 export const PopularPickCarousel = () => {
   const settings = {
-    spaceBetween: 5,
+    spaceBetween: 24,
     slidesPerView: carouselPopularPick.length < 3.5 ? carouselPopularPick : 3.5,
     navigation: carouselPopularPick.length > 3.5,
     /*

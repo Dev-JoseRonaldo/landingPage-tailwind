@@ -3,6 +3,7 @@ import { Home } from "./components/Home"
 import { JustDoIt } from "./components/JustDoIt"
 import { Featured } from "./components/Featured"
 import { PopularPick } from "./components/PopularPick"
+import { DaysRewarding } from "./components/DaysRewarding"
 
 export const App = () => {
 
@@ -14,6 +15,7 @@ export const App = () => {
         <JustDoIt />
         <Featured />
         <PopularPick />
+        <DaysRewarding />
       </main>
 
     </>

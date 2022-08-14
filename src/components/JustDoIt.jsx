@@ -5,7 +5,7 @@ import justDoIt4 from "../assets/justdoit4.png"
 
 export const JustDoIt = () => {
   return (
-    <section className="max-w-7xl mx-auto mb-24">
+    <section className="max-w-7xl mx-auto mb-24 px-4">
       <div className="w-full text-center">
         <h2 className="font-bold text-6xl mb-6">Just do it</h2>
         <p className="font-normal text-lg text-gray-500 mb-16">Captures messages that stands for more than just sport. </p>
