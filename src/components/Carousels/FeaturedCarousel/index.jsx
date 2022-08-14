@@ -1,6 +1,7 @@
 import { SwiperSlide } from "swiper/react"
 
 import { Carousel } from "../../carousel"
+import './styles.css'
 
 import { carouselFeatured } from "../../../carousel-mock.json"
 

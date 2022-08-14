@@ -1,10 +1,11 @@
 .swiper {
-  max-width: 1280px;
+  max-width: 1380px;
 }
 
 .swiper-slide {
   display: flex;
   justify-content: center;
+  overflow-y: visible;
 }
 
 .swiper-pagination-bullet-active {
@@ -22,6 +23,6 @@
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: black;
 }

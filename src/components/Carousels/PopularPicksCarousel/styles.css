@@ -1,0 +1,34 @@
+.popular-pick .swiper {
+  max-width: 1380px;
+  padding-top: 60px;
+}
+
+.popular-pick .swiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.popular-pick .swiper .swiper-pagination-bullet-active {
+  background-color: #718096;
+}
+
+.popular-pick .swiper .swiper-button-prev {
+  left: calc(100% - 90px);
+}
+
+.popular-pick .swiper .swiper-button-prev,
+.popular-pick .swiper .swiper-button-next {
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 8px;
+  z-index: 500;
+  top: 30px;
+}
+
+.popular-pick .swiper .swiper-button-prev::after,
+.popular-pick .swiper .swiper-button-next::after {
+  font-size: 0.8rem;
+  color: black;
+}
