@@ -6,17 +6,19 @@ import { carouselFeatured } from "../../../carousel-mock.json"
 
 export const FeaturedCarousel = () => {
   const settings = {
-    spaceBetween: 50,
-    slidesPerView: carouselFeatured.length < 3 ? carouselFeatured : 3,
-    navigation: carouselFeatured.length > 3,
+    spaceBetween: 5,
+    slidesPerView: carouselFeatured.length < 3.5 ? carouselFeatured : 3.5,
+    navigation: carouselFeatured.length > 3.5,
+    /*
     pagination: {
       clickable: true,
     },
-    loop: carouselFeatured.length >=3,
+    loop: carouselFeatured.length >= 3.5,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false,
     }
+    */
   }
 
   return (

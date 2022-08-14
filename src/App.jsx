@@ -1,7 +1,7 @@
-import { FeaturedCarousel } from "./components/Carousels/FeaturedCarousel"
 import Header from "./components/Header"
 import { Home } from "./components/Home"
 import { JustDoIt } from "./components/JustDoIt"
+import { Featured } from "./components/Featured"
 
 export const App = () => {
 
@@ -10,7 +10,7 @@ export const App = () => {
       <Header/>
       <Home />
       <JustDoIt />
-      <FeaturedCarousel />
+      <Featured />
 
     </>
   )

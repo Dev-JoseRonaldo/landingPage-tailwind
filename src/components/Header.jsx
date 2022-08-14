@@ -7,7 +7,7 @@ import { Search } from './search'
 
 export default function Header() {
   return (
-    <header className='w-screen'>   
+    <header className='w-full'>   
       <div className='flex justify-between mx-auto max-w-7xl py-6'>
         <div className='flex items-center gap-12'>        
           <Logo />
