@@ -24,8 +24,8 @@ export default function Header() {
         </div>
 
         <div className='flex align-center text-sm gap-6'>
-          <Search />
-          <Bag />
+          <a href=""><Search /></a> 
+          <a href=""><Bag /></a>
         </div> 
       </div> 
     </header>
